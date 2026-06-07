@@ -1,0 +1,27 @@
+{
+  "model_type": "CatBoostRegressor",
+  "features": [
+    "return_1",
+    "return_2",
+    "return_3",
+    "return_5",
+    "return_10",
+    "sma_5",
+    "sma_10",
+    "sma_20",
+    "price_sma5",
+    "price_sma10",
+    "volatility_5",
+    "volatility_10",
+    "volume_ratio",
+    "volume_change",
+    "momentum",
+    "change_percent"
+  ],
+  "training_samples": 321,
+  "test_samples": 81,
+  "mae": 0.26531771617072797,
+  "r2": 0.04883407519715366,
+  "trained_at": "2026-05-31 17:21:54",
+  "total_data": 474
+}
